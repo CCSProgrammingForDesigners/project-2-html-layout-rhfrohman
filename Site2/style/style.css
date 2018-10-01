@@ -1,0 +1,269 @@
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.title {
+    font-size: 2.4em;
+    line-height: 1.1em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    display: inline;
+}
+
+.year {
+    opacity: 0.6;
+    font-size: 1.7em;
+    font-weight: 100;
+}
+
+#bottomBox {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#rightContainer {
+    padding: 40px;
+    background-color: #f1f1f1;
+    flex: 1;
+}
+
+h2 {
+    display: flex;
+}
+
+#cast h3 {
+    padding-inline-start: 40px;
+}
+}
+
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: #081c24;
+    width: 100%;
+
+}
+
+.overWrap {
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    box-sizing: border-box;
+
+
+}
+
+.overbox {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.review {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.overview {
+    width: 100%;
+}
+
+.cast {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    width: 140px;
+    height: 260px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-right: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.star p {
+    font-size: .9em;
+    line-height: 1.4em;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.boldType {
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.box img {
+    width: 100%;
+}
+
+.star {
+    display: flex;
+    flex-direction: column;
+}
+
+.movieDes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.poster {
+    width: 300px;
+    height: 450px;
+    background-color: rgb(66, 22, 19);
+}
+
+.othernav {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    font-size: 1em;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.mainCont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 45px;
+    background-image: url(https://image.tmdb.org/t/p/w1280/kOVEVeg59E0wsnXmF9nrh6OmWII.jpg);
+    color: #fff;
+    -webkit-filter: opacity(.6);
+    filter: opacity(.6);
+
+
+}
+
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.star {
+    display: flex;
+    width: 140px;
+    height: auto;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.barMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.barMain li {
+    margin-left: 30px;
+}
+
+.border {
+    border-radius: 4px;
+}
+
+
+
+.mainNav {
+    border: solid red 2px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid red 2px;
+    color: white;
+    width: 100%;
+
+}
+
+
+.smallnav {
+    color: #868e91;
+    font-size: 0.75em;
+    font-weight: 600;
+    border: solid red 2px;
+}
+
+.smallnav li {
+    margin-left: 30px;
+    display: inline;
+    justify-content: right;
+    border: solid red 2px;
+
+}
+
+
+.rating {
+    display: inline-block;
+    border-radius: 2px;
+    background-color: #081c25;
+    color: #fff;
+    padding: 3px 0;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 4px;
+    line-height: 1em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
